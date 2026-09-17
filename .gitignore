@@ -1,0 +1,10 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Dataset tratado é regenerável a partir do CSV bruto
+dados/processado/*.csv
